@@ -1,6 +1,6 @@
 # GWAS_scripts
 
-This is where I will post the most recent GWAS scripts
+This is where I will post my GWAS scripts
 
 <b>FILE DESCRIPTIONS:</b>
 
@@ -10,18 +10,18 @@ This is where I will post the most recent GWAS scripts
 
 <b>FILE DETAILS:</b>
 
-ALSPAC_mums_GWAS_template.sh
-STRINGS TO EDIT:
+<b>ALSPAC_mums_GWAS_template.sh</b><br>
+strings to edit:<br>
 PATH_TO/MOTHERS.sample -> change to relevant path for current .sample phenotype file<br>
 PHENO -> change to column name for phenotpye<br>
 COVERS -> change to column names for covariates<br>
 PATH_TO.log -> change to path where results will be stored<br>
 PATH_TO.out -> change to path where SNPTEST output will be stored<br>
 
-roll_out_gwas.sh
-STRINGS TO EDIT:
+<b>roll_out_gwas.sh</b><br>
+strings to edit:<br>
 ALSPAC_mums_GWAS_ -> change to new template filename as necessary
 
-run_all_gwas.sh
-STRINGS TO EDIT:
+<b>run_all_gwas.sh</b><br>
+strings to edit:<br>
 ALSPAC_mums_GWAS_ -> change to new filename as necessary
