@@ -14,7 +14,7 @@ This is where I will post my GWAS scripts
 strings to edit:<br>
 PATH_TO/MOTHERS.sample -> change to relevant path for current .sample phenotype file<br>
 PHENO -> change to column name for phenotpye<br>
-COVERS -> change to column names for covariates<br>
+COVARS -> change to column names for covariates<br>
 PATH_TO.log -> change to path where results will be stored<br>
 PATH_TO.out -> change to path where SNPTEST output will be stored<br>
 
