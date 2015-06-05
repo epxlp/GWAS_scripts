@@ -28,6 +28,8 @@ strings to edit:<br>
 ALSPAC_mums_GWAS_ -> change to new filename as necessary
 
 <b>SNPTEST_format_output.sh</b><br>
+This script is for a particular project and so columns extracted using awk and header names may need changing<br>
+This script includes code for generating effect_allele_freq not outputted by SNPTEST as standard<br>
 strings to edit:<br>
 WORKING/DIRECTORY -> change to working directory that contains SNPTEST output<br>
 SNPTEST -> change to name of your SNPTEST output files<br>
