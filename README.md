@@ -2,13 +2,13 @@
 
 This is where I will post the most recent GWAS scripts
 
-<b>FILE DESCRIPTIONS:<\b>
+<b>FILE DESCRIPTIONS:</b>
 
-ALSPAC_mums_GWAS_template.sh    SNPTEST GWAS template script for ALSPAC mums
-roll_out_gwas.sh                Script to copy template to all 23 scripts, 1 per chromosome
-run_all_gwas.sh                 Script to submit all the individual chr jobs created using roll_out_gwas.sh
+<b>ALSPAC_mums_GWAS_template.sh</b>    SNPTEST GWAS template script for ALSPAC mums
+<b>roll_out_gwas.sh </b>               Script to copy template to all 23 scripts, 1 per chromosome
+<b>run_all_gwas.sh </b>                Script to submit all the individual chr jobs created using roll_out_gwas.sh
 
-FILE DETAILS:
+<b>FILE DETAILS:</b>
 
 ALSPAC_mums_GWAS_template.sh
 STRINGS TO EDIT:
