@@ -8,6 +8,7 @@ This is where I will post my GWAS scripts
 <b>roll_out_gwas.sh </b>               Script to copy template to all 23 scripts, 1 per chromosome<br>
 <b>run_all_gwas.sh </b>                Script to submit all the individual chr jobs created using roll_out_gwas.sh<br>
 <b>SNPTEST_format_output.sh</b>        Example script to convert SNPTEST output to single GWAS summary file<br>
+<b>qq_manhattan.R</b>                  R script to make manhattan and qq plot<br>
 
 <b>FILE DETAILS:</b>
 
@@ -35,3 +36,12 @@ WORKING/DIRECTORY -> change to working directory that contains SNPTEST output<br
 SNPTEST -> change to name of your SNPTEST output files<br>
 RESULTS -> Often analysis plans request a specfic naming convention for files<br>
 YYYYMMDD -> its a good idea to include the date in the final file name<br>
+
+<b>qq_manhattan.R</b><br>
+This R script uses qqman package.<br>
+This package requires R-3.0.0 or later. On bluecrystal3 use: module load languages/R-3.0.2<br>
+Install package using: install.package(qqman)<br>
+Change read.table file to own filename<br>
+Define columns with relevant data in 'DATA' object<br>
+Requires X11 tunnel to view plots<br>
+
