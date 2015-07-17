@@ -11,7 +11,7 @@
 
 library(qqman)
 
-results=read.table("EAGLE_AD_no23andme_results_07072015.txt", header=TRUE)
+results=read.table("results_file.txt", header=TRUE)
 
 # have a look at the data
 str(results)
