@@ -28,6 +28,6 @@ gzip header.tmp
 mv header.tmp.gz RESULTS.YYYYMMDD.gz
 
 # Filter results by MAF 0.01 and INFO 0.3
-zcat RESULTS.YYYYMMDD.gz | awk '$9>0.01 && $9<0.99 && $10>0.3' | gzip > RESULTS_filtered.YYYYMMDD.gz
+zcat RESULTS.YYYYMMDD.gz | awk 'NR==1 || ($9>0.01 && $9<0.99 && $10>0.3)' | gzip > RESULTS_filtered.YYYYMMDD.gz
 
 rm *.tmp
